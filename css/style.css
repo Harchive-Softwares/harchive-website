@@ -510,6 +510,7 @@ a:focus {
 }
 
 .about_section .detail-box p {
+  font-size: larger;
   margin-top: 15px;
 }
 
