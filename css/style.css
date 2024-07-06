@@ -529,19 +529,28 @@ a:focus {
   background-color: #3aaea8;
 }
 
+/* why-section start */
+.why_section .why_container {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+
+}
+
 .why_section .box {
   margin-top: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  -ms-flex-direction: row;
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
+  border: 1.5px solid #ccc;
 }
 
 .why_section .box .img-box {
@@ -602,6 +611,8 @@ a:focus {
 .why_section .btn-box a:hover {
   background-color: #007fa4;
 }
+
+
 
 /*team section */
 .team_section {
