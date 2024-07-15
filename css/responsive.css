@@ -9,10 +9,6 @@
     min-height: auto;
   }
 
-  .hero_area {
-    background: linear-gradient(130deg, #005955, #3aaea8);
-  }
-
   .hero_area .hero_bg_box {
     display: none;
   }
